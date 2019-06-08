@@ -1,6 +1,6 @@
 javascript:(function()
 	{
-	if(window.location.href.indexOf("panopto.com") < 1) 
+	if(window.location.href.indexOf("panopto.com") < 1 && window.location.href.indexOf("panopto.eu") < 1) 
 	{ 
 		alert("No Panopto video detected!"); 
 		exit(); 
